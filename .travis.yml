@@ -1,0 +1,10 @@
+language: php
+
+services:
+  - docker
+
+before_script:
+  - cd php74
+
+script:
+  - make build
